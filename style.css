@@ -495,7 +495,7 @@ button, input{
 .skills_name{
     font-size:20px ;
     font-weight: 600;
-    color: rgb(181, 181, 128);
+    color:rgb(156, 122, 176) ;
 }
 
 
@@ -845,6 +845,12 @@ textarea.input{
     background-color: rgb(33, 8, 40);
     border-radius: .5rem;
 }
+
+::-webkit-scrollbar-thumb{
+    background-color: palevioletred;
+    border-radius: .5rem;
+}
+
 
 ::-webkit-scrollbar-thumb{
     background-color: palevioletred;
