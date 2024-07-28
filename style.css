@@ -721,8 +721,20 @@ button, input{
     color: palevioletred;
 }
 
-.footer_socials{
+
+.footer_socials {
     justify-self: center;
+    display: flex;
+    justify-content: center; /* Aligns items to the center horizontally */
+    align-items: center; /* Aligns items to the center vertically */
+    gap: 10px; /* Adds space between the items */
+}
+
+.footer_social img,
+.footer_social i {
+    display: block;
+    width: 24px;
+    height: 24px;
 }
 
 .footer_social{
@@ -734,6 +746,7 @@ button, input{
 .footer_social:hover{
     color: palevioletred;
 }
+
 
 .footer_copy{
     font-size: 20px;
